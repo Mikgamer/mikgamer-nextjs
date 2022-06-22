@@ -1,6 +1,6 @@
 import TechLogo from "./TechLogo"
 
-export default function Project( {title, desc, links:{link, github}, techs} ) {
+export default function Project( {title, desc, links:{view, github}, techs} ) {
   return (
     <div className="
       bg-neutral-700 
@@ -15,8 +15,8 @@ export default function Project( {title, desc, links:{link, github}, techs} ) {
           {title}
           <br className="md:hidden"/>
           <> </>
-          {link?(
-          <a target="_blank" href={link} rel="noopener noreferrer" className="text-xl align-top text-react hover:text-neutral-200 underline underline-offset-2 decoration-2">
+          {view?(
+          <a target="_blank" href={view} rel="noopener noreferrer" className="text-xl align-top text-react hover:text-neutral-200 underline underline-offset-2 decoration-2">
             View
           </a>
           ):""}

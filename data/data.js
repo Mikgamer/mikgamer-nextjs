@@ -86,25 +86,25 @@ export const data = [
   {
     title: "SportSee",
     desc: "[OpenClassrooms Project] A ReactJS⚛️ analytics dashboard using D3JS📊",
-    links: {view:"",github:"https://github.com/Mikgamer/michaelperard_12_01032022"},
+    links: {view:"https://p12michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_12_01032022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "D3JS"]
   },
   {
     title: "Argent Bank",
     desc: "[OpenClassrooms Project] A ReactJS⚛️ web app with authentification🔓 using Redux",
-    links: {view:"",github:"https://github.com/Mikgamer/michaelperard_13_30032022"},
+    links: {view:"https://p13michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_13_30032022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "Redux", "SASS"]
   },
   {
     title: "HRnet",
     desc: "[OpenClassrooms Project] Migrating🐦 a web app from jQuery to ReactJS⚛️",
-    links: {view:"",github:"https://github.com/Mikgamer/michaelperard_14_14042022"},
+    links: {view:"https://p14michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_14_14042022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "Redux", "SASS", "MUI"]
   },
   {
     title: "Typescript Sandbox",
     desc: "A short project aiming to sharpen✨ my skills, \n using ReactJS⚛️, TypeScript, Fetch with French gouv API and Tailwind",
-    links: {view:"",github:"https://github.com/Mikgamer/Typescript-sandbox"},
+    links: {view:"https://typescriptsandbox.netlify.app/",github:"https://github.com/Mikgamer/Typescript-sandbox"},
     techs: ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "React-Router", "Tailwind"]
   },
   {
