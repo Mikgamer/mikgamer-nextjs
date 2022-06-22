@@ -25,7 +25,7 @@ export const data = [
   },
   {
     title: "ReactJS simple calendar",
-    desc: "A calendar made with ReactJS⚛️",
+    desc: "A calendar made with ReactJS",
     links: {view:"",github:""},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "MUI"]
   },
@@ -67,43 +67,43 @@ export const data = [
   },
   {
     title: "Les Petits Plats",
-    desc: "[OpenClassrooms Project] Creation of a website with its own sorting algorithm🏎️",
+    desc: "[OpenClassrooms Project] Creation of a website with its own sorting algorithm",
     links: {view:"https://p7michael.netlify.app/",github:"https://github.com/Mikgamer/MichaelPerard_7_05012022"},
     techs: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
   {
     title: "Billapp",
-    desc: "[OpenClassrooms Project] Debug🐛 a HR SaaS📝",
+    desc: "[OpenClassrooms Project] Debug a HR SaaS📝",
     links: {view:"",github:"https://github.com/Mikgamer/MichaelPerard_9_17012022"},
     techs: ["JavaScript", "Jest", "Testing-Library"]
   },
   {
     title: "Kasa",
-    desc: "[OpenClassrooms Project] Using ReactJS⚛️ to create a web app",
+    desc: "[OpenClassrooms Project] Using ReactJS to create a web app",
     links: {view:"https://p11michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_11_09022022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router"]
   },
   {
     title: "SportSee",
-    desc: "[OpenClassrooms Project] A ReactJS⚛️ analytics dashboard using D3JS📊",
+    desc: "[OpenClassrooms Project] A ReactJS analytics dashboard using D3JS📊",
     links: {view:"https://p12michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_12_01032022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "D3JS"]
   },
   {
     title: "Argent Bank",
-    desc: "[OpenClassrooms Project] A ReactJS⚛️ web app with authentification🔓 using Redux",
+    desc: "[OpenClassrooms Project] A ReactJS web app with authentification🔓 using Redux",
     links: {view:"https://p13michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_13_30032022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "Redux", "SASS"]
   },
   {
     title: "HRnet",
-    desc: "[OpenClassrooms Project] Migrating🐦 a web app from jQuery to ReactJS⚛️",
+    desc: "[OpenClassrooms Project] Migrating🐦 a web app from jQuery to ReactJS",
     links: {view:"https://p14michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_14_14042022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router", "Redux", "SASS", "MUI"]
   },
   {
     title: "Typescript Sandbox",
-    desc: "A short project aiming to sharpen✨ my skills, \n using ReactJS⚛️, TypeScript, Fetch with French gouv API and Tailwind",
+    desc: "A short project aiming to sharpen✨ my skills, \n using ReactJS, TypeScript, Fetch with French gouv API and Tailwind",
     links: {view:"https://typescriptsandbox.netlify.app/",github:"https://github.com/Mikgamer/Typescript-sandbox"},
     techs: ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "React-Router", "Tailwind"]
   },
