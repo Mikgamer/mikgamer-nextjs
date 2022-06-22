@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Project from './components/Project'
+import Project from "../components/Project"
 import { data } from '../data/data'
-import { useState } from 'react'
 
 export default function About() {
   const calcAge = () => {
