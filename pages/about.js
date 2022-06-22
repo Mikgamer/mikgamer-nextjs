@@ -5,6 +5,12 @@ import { data } from '../data/data'
 import { useState } from 'react'
 
 export default function About() {
+  const calcAge = () => {
+    let currentDate = new Date(),
+        age = currentDate.getFullYear() - 2001
+    age = currentDate.getMonth() > 7 ? age : age - 1
+    return age
+  }
 
   return (
     <>
@@ -18,13 +24,20 @@ export default function About() {
         min-h-screen
         text-center text-neutral-300 font-medium
       ">
-        <h1 className='md:text-6xl sm:text-5xl text-4xl text-neutral-100 py-8'>
+        <h1 className='md:text-6xl text-5xl text-neutral-100 pt-8 md:pt-16'>
           <span className="text-react font-bold">My</span> projects
           <> </>
-          <a target="_blank" href="https://github.com/Mikgamer/" rel="noopener noreferrer" className="md:text-4xl sm:text-3xl text-2xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
-            Github
+          <br className="md:hidden"/>
+          <a target="_blank" href="https://github.com/Mikgamer/" rel="noopener noreferrer" className="md:text-4xl text-3xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
+            🐱Github
           </a>
         </h1>
+
+        <h3 className='p-8 text-xl'>
+          Hi👋, I am Michael, a {calcAge()} years old Frontend developer👨‍💻
+          <br />
+          I love cats🐈, technology🔬🤖, video games⛏️ and web browsing🌌
+        </h3>
 
         <section className='
           m-auto px-8 pb-16

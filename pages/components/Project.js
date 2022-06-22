@@ -7,7 +7,7 @@ export default function Project( {title, desc, links:{view, github}, techs} ) {
       w-full md:w-auto min-h-56
       rounded-none md:rounded
       text-neutral-300 font-medium text-left
-      p-8 gap-2
+      p-6 gap-2
       flex flex-col justify-between
     ">
       <div>
@@ -16,14 +16,14 @@ export default function Project( {title, desc, links:{view, github}, techs} ) {
           <br className="md:hidden"/>
           <> </>
           {view?(
-          <a target="_blank" href={view} rel="noopener noreferrer" className="text-xl align-top text-react hover:text-neutral-200 underline underline-offset-2 decoration-2">
-            View
+          <a target="_blank" href={view} rel="noopener noreferrer" className="text-xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
+            View👀
           </a>
           ):""}
           <> </>
           {github?(
           <a target="_blank" href={github} rel="noopener noreferrer" className="text-xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
-            Github
+            🐱Github
           </a>
           ):""}
         </h2>

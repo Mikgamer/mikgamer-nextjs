@@ -44,31 +44,31 @@ export const data = [
   {
     title: "Booki",
     desc: "[OpenClassrooms Project] From a mockup🚧 to a website with HTML & CSS, \n use of BEM for CSS",
-    links: {view:"",github:"https://github.com/Mikgamer/michaelperard_2_13122021"},
+    links: {view:"https://p2michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_2_13122021"},
     techs: ["HTML", "CSS"]
   },
   {
     title: "Ohmyfood",
     desc: "[OpenClassrooms Project] A website with CSS animations✨, \n use of BEM + SASS for CSS",
-    links: {view:"",github:"https://github.com/Mikgamer/MichaelPerard_3_15122021"},
+    links: {view:"https://p3michael.netlify.app/",github:"https://github.com/Mikgamer/MichaelPerard_3_15122021"},
     techs: ["HTML", "CSS", "SASS"]
   },
   {
     title: "GameOn",
     desc: "[OpenClassrooms Project] A landing page🚀 using JavaScript where I had to debug and finish the site",
-    links: {view:"",github:"https://github.com/Mikgamer/MichaelPerard_4_20122021"},
+    links: {view:"https://p4michael.netlify.app/",github:"https://github.com/Mikgamer/MichaelPerard_4_20122021"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "FishEye",
     desc: "[OpenClassrooms Project] A website with accessibility👨‍🦯 in mind, \n use of Factory Pattern🏭 for creating cards with JavaScript",
-    links: {view:"",github:"https://github.com/Mikgamer/MichaelPerard_6_22122021"},
+    links: {view:"https://p6michael.netlify.app/",github:"https://github.com/Mikgamer/MichaelPerard_6_22122021"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "Les Petits Plats",
     desc: "[OpenClassrooms Project] Creation of a website with its own sorting algorithm🏎️",
-    links: {view:"",github:""},
+    links: {view:"https://p7michael.netlify.app/",github:"https://github.com/Mikgamer/MichaelPerard_7_05012022"},
     techs: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
   {
@@ -80,7 +80,7 @@ export const data = [
   {
     title: "Kasa",
     desc: "[OpenClassrooms Project] Using ReactJS⚛️ to create a web app",
-    links: {view:"",github:"https://github.com/Mikgamer/michaelperard_11_09022022"},
+    links: {view:"https://p11michael.netlify.app/",github:"https://github.com/Mikgamer/michaelperard_11_09022022"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "React-Router"]
   },
   {
