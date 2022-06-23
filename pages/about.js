@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import { useEffect, useRef, useState } from 'react'
 import BackToTop from '../components/BackToTop'
@@ -61,10 +62,10 @@ export default function About() {
           m-auto px-8 pb-16
           flex flex-wrap md:justify-start justify-center md:flex-row flex-col items-center gap-8
         '>
-          {data?.map((item,i)=><>
-            <Project key={i} title={item.title} desc={item.desc} techs={item.techs} links={item.links}/>
+          {data?.map((item,i)=><React.Fragment key={i}>
+            <Project title={item.title} desc={item.desc} techs={item.techs} links={item.links}/>
             {i===7?<ContactBlock />:""}
-          </>)}
+          </React.Fragment>)}
         </section>
       </main>
 

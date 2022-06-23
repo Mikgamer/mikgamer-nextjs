@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Mikgamer | Frontend dev</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Michael Perard - Frontend developer" />
       </Head>
 
       <main className="bg-neutral-900 min-h-screen flex items-center justify-center text-center flex-col overflow-hidden font-medium">

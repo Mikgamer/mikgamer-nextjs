@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-react {
+.text-react,
+.hover-text-react:hover {
   color: #61dafb;
 }
 

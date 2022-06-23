@@ -2,43 +2,43 @@ export const data = [
   {
     title: "Flexbox",
     desc: "An introduction to flexbox💪",
-    links: {view:"",github:""},
+    links: {view:"https://mikgamerflexbox.netlify.app/",github:"https://github.com/Mikgamer/FlexboxCss/"},
     techs: ["HTML", "CSS"]
   },
   {
-    title: "Slider",
+    title: "SliderJS",
     desc: "A slider made by hand✋",
-    links: {view:"",github:""},
+    links: {view:"https://mikgamersliderjs.netlify.app/",github:"https://github.com/Mikgamer/SliderJs/"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "WarframeInfo",
     desc: "A project made in french aiming to explain how game mechanics⚙️ work in Warframe",
-    links: {view:"",github:""},
+    links: {view:"",github:"https://github.com/Mikgamer/WarframeInfo/"},
     techs: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
   {
     title: "Drawing board",
     desc: "A quick drawing✏️ board",
-    links: {view:"",github:""},
+    links: {view:"https://mikgamerdrawingjs.netlify.app/",github:"https://github.com/Mikgamer/DrawingJs/"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "ReactJS simple calendar",
     desc: "A calendar made with ReactJS",
-    links: {view:"",github:""},
+    links: {view:"https://reactsimplecalendar.netlify.app/",github:"https://github.com/Mikgamer/ReactCalendar"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "MUI"]
   },
   {
     title: "JsFire",
     desc: "An interactive fire🔥 made with javascript",
-    links: {view:"",github:""},
+    links: {view:"https://jsfire.netlify.app/",github:"https://github.com/Mikgamer/JsFire/"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "WebApp RSS",
     desc: "An HTML/CSS/JavaScript web application made to read RSS feeds📰",
-    links: {view:"",github:""},
+    links: {view:"https://webapprss.netlify.app/",github:"https://github.com/Mikgamer/WebAppRSS/"},
     techs: ["HTML", "CSS", "JavaScript"]
   },
   {
