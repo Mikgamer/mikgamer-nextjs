@@ -113,4 +113,10 @@ export const data = [
     links: {view:"",github:"https://github.com/Mikgamer/yet-another-react-modal-component"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "Jest", "Testing-Library", "Webpack", "BabelJS"]
   },
+  {
+    title: "Mikgamer.fr",
+    desc: "This website🦘",
+    links: {view:"https://mikgamer.fr",github:"https://github.com/Mikgamer/mikgamer-nextjs"},
+    techs: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind"]
+  },
 ].reverse()
