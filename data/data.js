@@ -119,4 +119,10 @@ export const data = [
     links: {view:"https://mikgamer.fr",github:"https://github.com/Mikgamer/mikgamer-nextjs"},
     techs: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind"]
   },
+  {
+    title: "Titan-informatique.fr",
+    desc: "Titan Informatique website",
+    links: {view:"https://titan-informatique.fr",github:""},
+    techs: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
 ].reverse()
