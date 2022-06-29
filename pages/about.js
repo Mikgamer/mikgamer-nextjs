@@ -43,7 +43,7 @@ export default function About() {
         min-h-screen
         text-center text-neutral-300 font-medium
       ">
-        <h1 className='md:text-6xl text-5xl text-neutral-100 pt-16' ref={title}>
+        <h1 className='md:text-6xl text-5xl text-neutral-100 pt-20 mb-12' ref={title}>
           <span className="text-react font-bold">My</span> projects
           <> </>
           <br className="md:hidden"/>
@@ -52,7 +52,7 @@ export default function About() {
           </a>
         </h1>
 
-        <h3 className='p-8 text-xl'>
+        <h3 className='mb-12 text-xl'>
           Hi👋, I am <span className="text-react">Michael</span>, a {calcAge()} years old Frontend developer
           <br />
           I love cats, technology, video games, reading and web browsing🌌
@@ -60,7 +60,7 @@ export default function About() {
 
         <section className='
           m-auto px-8 pb-16
-          flex flex-wrap md:justify-start justify-center md:flex-row flex-col items-center gap-8
+          flex flex-wrap md:justify-between justify-center md:flex-row flex-col items-center gap-8
         '>
           {data?.map((item,i)=><React.Fragment key={i}>
             <Project title={item.title} desc={item.desc} techs={item.techs} links={item.links}/>

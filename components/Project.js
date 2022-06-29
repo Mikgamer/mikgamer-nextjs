@@ -2,15 +2,15 @@ import TechLogo from "./TechLogo"
 
 export default function Project( {title, desc, links:{view, github}, techs} ) {
   return (
-    <div className="
+    <article className="
       bg-neutral-700 
       w-full md:w-auto min-h-56
       rounded-none md:rounded
       text-neutral-300 font-medium text-left
       p-6 gap-2
-      flex flex-col justify-between
+      flex flex-col grow
     ">
-      <div>
+      <header>
         <h2 className="text-4xl">
           {title}
           <br className="md:hidden"/>
@@ -27,11 +27,13 @@ export default function Project( {title, desc, links:{view, github}, techs} ) {
           </a>
           ):""}
         </h2>
+      </header>
+      <article>
         <p className="md:whitespace-pre-line">{desc}</p>
-      </div>
-      <div className="flex gap-2 flex-wrap">
+      </article>
+      <footer className="flex gap-2 flex-wrap mt-auto pt-4">
         {techs?.map((tech,i)=><TechLogo key={i} tech={tech} />)}
-      </div>
-    </div>
+      </footer>
+    </article>
   )
 }

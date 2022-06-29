@@ -16,7 +16,7 @@ export default function Contact() {
         min-h-screen
         text-center text-neutral-300 font-medium
       ">
-        <h1 className='md:text-6xl text-5xl text-neutral-100 pt-16 mb-12'>
+        <h1 className='md:text-6xl text-5xl text-neutral-100 pt-20 mb-12'>
           Contact <span className="text-react font-bold">me</span>
         </h1>
 

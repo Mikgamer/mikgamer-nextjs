@@ -9,7 +9,7 @@ export default function ContactBlock() {
         rounded-none md:rounded
         text-neutral-300 hover:text-amber-600 font-medium text-left
         p-6 md:px-32 gap-2
-        flex justify-center items-center
+        flex justify-center items-center grow
         duration-100
       ">
         <h2 className="text-5xl">
