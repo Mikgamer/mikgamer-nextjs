@@ -34,6 +34,7 @@ export default function About() {
       <Head>
         <title>Mikgamer | About</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Michael Perard - Contact me" />
       </Head>
 
       <Header />
@@ -52,11 +53,11 @@ export default function About() {
           </a>
         </h1>
 
-        <h3 className='mb-12 text-xl'>
+        <h2 className='mb-12 text-xl'>
           Hi👋, I am <span className="text-react">Michael</span>, a {calcAge()} years old Frontend developer
           <br />
           I love cats, technology, video games, reading and web browsing🌌
-        </h3>
+        </h2>
 
         <section className='
           m-auto px-8 pb-16

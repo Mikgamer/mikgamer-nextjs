@@ -7,6 +7,7 @@ export default function Contact() {
       <Head>
         <title>Mikgamer | Contact</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Michael Perard - Curious about my work ?" />
       </Head>
 
       <Header />

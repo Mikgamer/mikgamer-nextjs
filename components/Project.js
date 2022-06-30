@@ -16,13 +16,13 @@ export default function Project( {title, desc, links:{view, github}, techs} ) {
           <br className="md:hidden"/>
           <> </>
           {view?(
-          <a target="_blank" href={view} rel="noopener noreferrer" className="text-xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
+          <a target="_blank" href={view} rel="noopener noreferrer" className="text-xl align-top text-amber-500 hover:text-neutral-200 underline underline-offset-2 decoration-2">
             View
           </a>
           ):""}
           <> </>
           {github?(
-          <a target="_blank" href={github} rel="noopener noreferrer" className="text-xl align-top text-amber-600 hover:text-neutral-200 underline underline-offset-2 decoration-2">
+          <a target="_blank" href={github} rel="noopener noreferrer" className="text-xl align-top text-amber-500 hover:text-neutral-200 underline underline-offset-2 decoration-2">
             Github
           </a>
           ):""}
