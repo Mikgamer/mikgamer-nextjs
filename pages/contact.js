@@ -6,8 +6,11 @@ export default function Contact() {
     <>
       <Head>
         <title>Mikgamer | Contact</title>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Michael Perard - Curious about my work ?" />
+        <meta name="theme-color" content="#171717" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
       </Head>
 
       <Header />

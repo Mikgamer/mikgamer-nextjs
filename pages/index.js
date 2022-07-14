@@ -6,8 +6,11 @@ export default function Home() {
     <>
       <Head>
         <title>Mikgamer | Frontend dev</title>
-        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Michael Perard - Frontend developer" />
+        <meta name="theme-color" content="#171717" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
       </Head>
 
       <main className="bg-neutral-900 min-h-screen flex items-center justify-center text-center flex-col overflow-hidden font-medium">
