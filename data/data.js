@@ -117,7 +117,7 @@ export const data = [
     title: "Mikgamer.fr",
     desc: "This website🦘",
     links: {view:"https://mikgamer.fr",github:"https://github.com/Mikgamer/mikgamer-nextjs"},
-    techs: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind"]
+    techs: ["HTML", "CSS", "JavaScript", "NextJS", "Tailwind", "PWA"]
   },
   {
     title: "Titan-informatique.fr",
