@@ -125,4 +125,10 @@ export const data = [
     links: {view:"https://titan-informatique.fr",github:""},
     techs: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
+  {
+    title: "Video Chat",
+    desc: "A video chat using WebRTC and Firebase",
+    links: {view:"https://mikgamervideochat.netlify.app/",github:"https://github.com/Mikgamer/videochat"},
+    techs: ["HTML", "CSS", "JavaScript", "ReactJS", "WebRTC", "Vite", "Firebase"]
+  },
 ].reverse()
