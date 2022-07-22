@@ -131,4 +131,10 @@ export const data = [
     links: {view:"https://mikgamervideochat.netlify.app/",github:"https://github.com/Mikgamer/videochat"},
     techs: ["HTML", "CSS", "JavaScript", "ReactJS", "WebRTC", "Vite", "Firebase"]
   },
+  {
+    title: "XSS attack example",
+    desc: "Example of XSS attack using a link",
+    links: {view:"https://mikgamerxss.netlify.app/",github:"https://github.com/Mikgamer/XSS-Example"},
+    techs: ["HTML", "CSS", "JavaScript"]
+  },
 ].reverse()
